@@ -1,6 +1,10 @@
 on:
   push:
     branches: [main]
+
+permissions:
+  contents: write
+
 jobs:
   versioning:
     runs-on: ubuntu-latest
